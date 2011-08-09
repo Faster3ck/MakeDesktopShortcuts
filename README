@@ -1,0 +1,27 @@
+MakeDesktopShortcuts is a service menu extension for Dolphin
+that allows you to add quickly desktop shortcuts of one or more
+folders with a mouse click.
+More precisely, it doesn't create any symbolic link
+but it generates a .desktop file launcher that points to the selected folder.
+
+Installation:
+-------------
+As root run sh install.sh
+
+Usage:
+-------------
+Select one or more folders, right click on these folders and, from the popup menu, click on
+Actions->Create shortcut->To desktop
+
+License:
+-------------
+Copyright (C) 2011 Francesco Mondello
+
+This program is free software; you can redistribute it and/or modify it under the terms
+of the GNU General Public License as published by the Free Software Foundation;
+either version 2 of the License, or (at your option) any later version.
+
+Author:
+-------------
+Francesco Mondello (Faster): <faster3ck@gmail.com>
+http://fasterindesign.altervista.org/
