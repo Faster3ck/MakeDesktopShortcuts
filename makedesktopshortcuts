@@ -34,7 +34,7 @@ def main():
     
 def extractIconName(path):
     desktopFile = path+"/.directory"
-    icon = ""
+    icon = "folder"
     
     if os.path.isfile(desktopFile):
         f = open(desktopFile, "r")
