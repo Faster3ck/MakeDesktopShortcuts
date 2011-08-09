@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Service
+Encoding=UTF-8
+Version=1.0.1
+ServiceTypes=KonqPopupMenu/Plugin,inode/directory
+Actions=FolderShortcut;
+X-KDE-Submenu=Create shortcut
+X-KDE-Submenu[it]=Crea collegamento
+
+[Desktop Action FolderShortcut]
+Name=To desktop
+Name[it]=Al desktop
+Icon=user-desktop
+Exec=makedesktopshortcuts %U
