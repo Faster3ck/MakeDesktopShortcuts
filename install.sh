@@ -11,7 +11,7 @@ if [ "$(id -u)" != "0" ]
   else
     echo "Press Enter to install $NAME on your system"
     read
-    install -m 644 $DESKTOPFILE "/usr/share/kde4/services/ServiceMenus/"
+    install -m 644 $DESKTOPFILE "/usr/share/kio/servicemenus/"
     install -m 755 $SCRIPT "/usr/bin/"
     echo "Installation complete"
 fi
